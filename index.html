@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JSON Example </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            let countries = [
+            {	
+                "India": ["New Delhi",1300,"Hindu"],
+                "China" :["Beijing",1400,"Buddhist"],
+                "USA"	:["Washington DC",340,"Christian"],
+                "Germany" :["Berlin",83,"Christian"],
+                "UK" : ["London",65,"Christian"],
+                "Colombia" : ["Bogota", 45, "Christian"]
+            },
+        
+            {
+                "Exports" 	: ["Software", "Manufacturing", "Phones", "Cars", "Choc", "Coffee"]
+            }
+        ]
+
+        let countries_str = 
+        `[
+            {	
+                "India": ["New Delhi",1300,"Hindu"],
+                "China":["Beijing",1400,"Buddhist"],
+                "USA":["Washington DC",340,"Christian"],
+                "Germany":["Berlin",83,"Christian"],
+                "UK": ["London",65,"Christian"],
+                "Colombia": ["Bogota", 45, "Christian"]
+            },
+        
+            {
+                "Exports" 	: ["Software", "Manufacturing", "Phones", "Cars", "Choc", "Coffee"]
+            }
+        ]`
+        console.log(countries[0], countries[1])
+        console.log(JSON.parse(countries_str))
+        </script>
+    </body>
+</html>

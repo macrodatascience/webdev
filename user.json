@@ -1,0 +1,14 @@
+[
+	{	
+		"India": ["New Delhi",1300,"Hindu"],
+		"China" :["Beijing",1400,"Buddhist"],
+		"USA"	:["Washington DC",340,"Christian"],
+		"Germany" :["Berlin",83,"Christian"],
+		"UK" : ["London",65,"Christian"],
+		"Colombia" : ["Bogota", 45, "Christian"]
+	},
+
+	{
+		"Exports" 	: ["Software", "Manufacturing", "Phones", "Cars", "Choc", "Coffee"]
+	}
+]
